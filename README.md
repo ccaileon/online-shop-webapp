@@ -22,8 +22,11 @@ This project features API integration to dynamically manage product inventory, d
 ## Screenshots
 
 ![Home Page](./screenshots/index.png)  
+
 ![Product Details](./screenshotsproducts.png)  
+
 ![Shopping Cart](./screenshots/checkout.png) 
+
 ![Contact](./screenshots/contact.png)  
 
 ## How to Run
