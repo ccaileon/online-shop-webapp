@@ -45,7 +45,7 @@ The app consumes a free external API that provides product information used to:
 
 ## Author
 
-Noelia Cegarra Castillo – [noeliacegarracastillo@gmail.com](mailto:your.email@example.com)  
+Noelia Cegarra Castillo
 
 [GitHub Profile](https://github.com/ccaileon) | [Linkedin](https://www.linkedin.com/in/noelia-cegarra-castillo/)
 
