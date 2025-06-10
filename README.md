@@ -3,7 +3,6 @@
 An online product store web app built with pure HTML, CSS, and JavaScript.  
 This project features API integration to dynamically manage product inventory, display products, and handle orders.
 
-**This project was completed as part of my training in web development.**
 
 ## Technologies Used
 
@@ -48,5 +47,7 @@ The app consumes a free external API that provides product information used to:
 Noelia Cegarra Castillo
 
 [GitHub Profile](https://github.com/ccaileon) | [Linkedin](https://www.linkedin.com/in/noelia-cegarra-castillo/)
+
+**This project was completed as part of my training in web development.**
 
 
