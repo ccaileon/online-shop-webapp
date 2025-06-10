@@ -1,0 +1,363 @@
+/* MENU */
+body {
+  margin: 0px;
+  padding: 0px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.custom-navbar{
+  background-color: #2d2d2a!important;
+  margin: 0;
+  padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.count-carrito{
+  margin-top: 4.5%;
+}
+
+.menu {
+z-index: 10;
+position: sticky;
+top: 0;  
+}
+
+
+.container-fluid {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+
+.navbar-brand {
+  padding-left: 2%;
+}
+
+.nav-link {
+  color: #c6bcb6;
+}
+
+.nav-item {
+    padding-top: 2%;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+nav.navbar .nav-link.active { 
+color: #ffffff!important;
+
+}
+
+.btn.btn-outline-success {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  box-sizing: border-box; 
+}
+
+.btn.btn-outline-success:hover {
+  color: #8f6868;
+  background-color: #ffffff;
+  border: 1px solid #ffffff; 
+
+}
+
+.d-flex {
+  padding-right: 2%;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #2d2d2a;
+  padding-top:5%;
+  padding-bottom:3%;
+z-index: 10;
+}
+
+.footer h3 {
+  color: #ffffff;
+}
+.footer p {
+  color: white;
+  font-weight: 500;
+}
+.footer .text-center {
+margin-top: 3%;
+color: #c6bcb6;
+font-weight: 100;
+}
+
+
+/* INICIO */
+
+/* CABECERA INICIO*/
+.cabecera {
+  display: block;
+  position: relative;
+  background-image: url('../resources/portada-home-beauty.jpg')!important;
+  background-size: cover;
+ background-position: center; 
+background-repeat: no-repeat;
+  background-attachment: fixed; 
+  height: 100vh;
+  transition: background-position 0.3 ease-out;
+}
+
+.cabecera-texto {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%); 
+  z-index: 1;
+  font-size: 6rem;
+}
+
+.cabecera-texto h1 {
+  font-size: 5rem;
+  color: #2d2d2a!important;
+}
+
+.cabecera-texto .btn-primary {
+  background-color: #805151;
+  border: none;
+  padding: 2%;
+  font-weight: bold;
+}
+
+.cabecera-texto .btn-primary:hover {
+background-color: #8f6868;
+}
+
+/* CONTENIDO INICIO */
+h1 {
+    color: #2d2d2a;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+h2 {
+    color: #2d2d2a;
+  font-weight: bold;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.index-1 {
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
+.index-1 h1 {
+  margin-top: -5%;
+}
+
+.index-2 {
+  background-color: #2d2d2a;
+  padding-top: 5%;
+padding-bottom: 5%;
+
+}
+
+.index-2 h2{
+font-weight: 500!important;
+margin-top: 3%;
+color: #ffffff;
+}
+
+.index-2 p{
+color: white!important;
+}
+
+.index-2 h1 {
+color: white!important;
+}
+
+.index-3 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.index-3 h1 {
+  margin-bottom: 3%;
+}
+
+.index-3 h2 {
+  margin-top: 8%;
+}
+
+.index-3 p {
+  margin-bottom: 2%;
+}
+
+
+
+
+/* PRODUCTOS */
+.busqueda {
+  width: 100%;
+}
+
+.busqueda select {
+  margin-right: 0.5%;
+}
+.range {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 25%;
+}
+.range input[type="range"] {
+  margin-top: -3%;
+  margin-right: 3%;
+    margin-left: 3%;
+}
+
+
+.filtro {
+  display: flex;
+flex-direction: row;
+width: 100%;
+}
+
+.custom-col-productos {
+  margin-bottom: 10%;
+}
+
+.productos-1 h1 {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.productos-1 h4 {
+  margin-bottom: 5%;
+}
+
+.custom-carousel {
+height: 60vh;
+}
+
+.custom-col-productos .carousel-inner img {
+    max-height: 280px; 
+    width: 100%;
+    object-fit: cover; 
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,<svg xmlns="http://www.w3.org/2000/svg" fill="brown" viewBox="0 0 16 16"><path d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,<svg xmlns="http://www.w3.org/2000/svg" fill="brown" viewBox="0 0 16 16"><path d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 1 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>');
+}
+
+
+
+.custom-carousel img{
+object-fit: cover;
+object-position: center top;
+margin-top: -10%;
+}
+
+.btn-primary {
+  background-color: #805151;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #8f6868;
+}
+
+.card {
+  border: none;
+}
+
+.text-danger {
+  color: #2d2d2a!important;
+}
+
+.container .col {
+margin-top: 5%;
+}
+
+/* CONTACTO */
+
+.custom-contacto {
+  margin-top: 5%;
+}
+
+/* FORMULARIO */
+
+input[type='text'], input[type='email'], input[type='number'] {
+  margin-top: 1%;
+}
+
+.row form {
+  margin-bottom: 10%;
+}
+
+.row form .btn {
+width: 20%;
+margin-top: 3%;
+}
+
+/* CARRITO */
+
+.formulario {
+  display: flex;
+  flex-direction: column!important;
+  flex-wrap: nowrap;
+}
+
+.formulario input, select {
+  max-width: 90%;
+}
+
+.formulario label {
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+.formulario p {
+  margin-top: 2%;
+}
+
+.metodo-pago {
+  display: flex !important;  
+  flex-direction: row !important;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  align-items: center; 
+}
+
+.opcion {
+  display: flex;
+  align-items: center; 
+  gap: 5px; 
+}
+
+.opcion input[type="radio"] {
+  margin: 0; 
+  position: relative;
+  top: 1px; 
+}
+
+.opcion label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px; 
+}
+
+
+.carrito-contenedor {
+  overflow: hidden
+}
+
+
+
+
+
+
